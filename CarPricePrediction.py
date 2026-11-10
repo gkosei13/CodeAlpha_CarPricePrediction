@@ -1,18 +1,3 @@
-"""
-CodeAlpha Data Science Internship - Task 3: Car Price Prediction with Machine Learning
---------------------------------------------------------------------------------------
-Predicts car prices from features such as brand, engine size, horsepower,
-mileage and age. Compares several regression models, tunes the best
-tree-based one, and explains which features drive price.
-
-Usage:
-    python car_price_prediction.py --csv CarPrice_Assignment.csv
-    python car_price_prediction.py --csv "car data.csv"
-
-Works with both common versions of the dataset (the target column and the
-car-name / year columns are detected automatically).
-"""
-
 import argparse
 import datetime
 import os
